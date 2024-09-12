@@ -48,9 +48,10 @@ pom.xml: Archivo de configuración de Maven que define las dependencias del proy
 mvn install
 ```
 
-3. Configurar el WebDriver
-Descarga el WebDriver correspondiente a tu navegador desde la siguiente ruta: https://googlechromelabs.github.io/chrome-for-testing/#stable  
-El proyecto se probó usando la versión: `128.0.6613.137 (r1331488)` y en específico el siguiente:
+3. Configurar Chromedriver:
+
+Descarga el Chromedriver correspondiente a tu navegador desde la siguiente ruta: https://googlechromelabs.github.io/chrome-for-testing/#stable  
+El proyecto se probó usando la versión: `128.0.6613.137 (r1331488)` y en específico el siguiente (Este driver ya está incluido en este repositorio):
 
 | Binary       | Plataform | URL                                                                                                    |
 |--------------|------------|--------------------------------------------------------------------------------------------------------|
